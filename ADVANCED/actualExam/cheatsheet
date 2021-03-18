@@ -1,0 +1,20 @@
+    function createEl(type, text, cls) {
+        let el = document.createElement(type);
+        el.textContent = text;
+        if (cls !== undefined) {
+            el.classList.add(cls);
+        }
+        return el;
+        
+        
+        
+        
+        
+        
+        
+        
+    }   Array.from(listOfGifts.childNodes)
+            .sort((a, b) => a.textContent.localeCompare(b.textContent))
+            .forEach(li => listOfGifts.appendChild(li));
+
+    }
